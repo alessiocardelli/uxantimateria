@@ -14,6 +14,8 @@ input {
   background: transparent;
   border: none;
   width: 100%;
+  font-size: 18px;
+  opacity: 67%;
 }
 
 .reveal{
@@ -356,6 +358,7 @@ h1 {
   color: black;
   opacity: 65%;
   justify-content: center;
+  max-width: 90%;
 }
 
 .website-footer a {
@@ -383,12 +386,12 @@ h1 {
 
   .logo {
     margin-right: 0px;
-    height: 24px;
+    height: 32px;
     margin-bottom: 24px;
   }
 
   .logo-img {
-    height: 24px;
+    height: 32px;
   }
 
   .menu-links a {
