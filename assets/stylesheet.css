@@ -450,8 +450,8 @@ h1 {
   }
 
   .content-box {
-    width: 32%;
-    margin: 0 0.6% 1%;
+    width: 31%;
+    margin: 0 1.1% 1.5%;
   }
 
 }
@@ -465,8 +465,8 @@ h1 {
   }
 
   .content-box {
-    width: 47.3%;
-    margin: 0 0.6% 1%;
+    width: 45.9%;
+    margin: 0 1.5% 2%;
   }
 
 }
@@ -476,7 +476,7 @@ h1 {
   .content-box {
     min-height: 280px;
     width: 100%;
-    margin: 0 0% 1%;
+    margin: 0 0% 3%;
   }
 
 }
