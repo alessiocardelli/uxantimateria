@@ -24,6 +24,7 @@ input {
   opacity: 0;
   transition: 1s all ease-in-out;
 }
+
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
@@ -142,20 +143,20 @@ h1 {
   background-color: black;
   cursor: pointer;
 }
+
 .filter-chips.selected.all {
   background-color: black !important;
   color: white !important;
 }
 
-
 .ai {
   border: 1px solid #B795FF !important;
 }
+
 .filter-chips.selected.ai {
     background-color: #B795FF !important;
     color: black !important;
 }
-
 
 .ai:hover, .ai-category {
   background-color: #B795FF !important;
@@ -165,6 +166,7 @@ h1 {
 .risorse {
   border: 1px solid #93B6FF !important;
 }
+
 .filter-chips.selected.risorse {
   background-color: #93B6FF !important;
   color: black !important;
@@ -178,6 +180,7 @@ h1 {
 .contenuti {
   border: 1px solid #93DEFF !important;
 }
+
 .filter-chips.selected.contenuti {
   background-color: #93DEFF !important;
   color: black !important;
@@ -191,6 +194,7 @@ h1 {
 .materiali {
   border: 1px solid #93FFB1 !important;
 }
+
 .filter-chips.selected.materiali {
   background-color: #93FFB1 !important;
   color: black !important;
@@ -204,6 +208,7 @@ h1 {
 .formazione {
   border: 1px solid #E3FF93 !important;
 }
+
 .filter-chips.selected.formazione {
   background-color: #E3FF93 !important;
   color: black !important;
@@ -217,6 +222,7 @@ h1 {
 .eventi {
   border: 1px solid #FFE793 !important;
 }
+
 .filter-chips.selected.eventi {
   background-color: #FFE793 !important;
   color: black !important;
@@ -230,6 +236,7 @@ h1 {
 .canali {
   border: 1px solid #FFBA93 !important;
 }
+
 .filter-chips.selected.canali {
   background-color: #FFBA93 !important;
   color: black !important;
@@ -243,6 +250,7 @@ h1 {
 .libri {
   border: 1px solid #F4B7F1 !important;
 }
+
 .filter-chips.selected.libri {
   background-color: #F4B7F1 !important;
   color: black !important;
@@ -261,7 +269,7 @@ h1 {
   padding: 24px;
   position: relative;
   min-height: 360px;
-  width: 15.4%;
+  width: 15.8%;
   margin: 0 0.6% 1%;
   box-sizing: border-box;
 }
@@ -428,12 +436,22 @@ h1 {
     padding: 0px;
   }
 
+  .content-box {
+    width: 24.1%;
+    margin: 0 0.6% 1%;
+  }
+
 }
 
 @media (max-width: 830px) {
 
   .filters {
     justify-content: left;
+  }
+
+  .content-box {
+    width: 32.5%;
+    margin: 0 0.6% 1%;
   }
 
 }
@@ -446,13 +464,19 @@ h1 {
     cursor: pointer;
   }
 
+  .content-box {
+    width: 49.2%;
+    margin: 0 0.6% 1%;
+  }
+
 }
 
 @media (max-width: 500px) {
 
-
   .content-box {
     min-height: 280px;
+    width: 100%;
+    margin: 0 0% 1%;
   }
 
 }
