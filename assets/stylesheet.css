@@ -14,8 +14,8 @@ input {
   background: transparent;
   border: none;
   width: 100%;
-  font-size: 18px;
-  opacity: 67%;
+  font-size: 18px !important;
+  opacity: 67% !important;
 }
 
 .reveal{
